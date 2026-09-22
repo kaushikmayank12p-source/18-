@@ -253,6 +253,7 @@
     }
 
     function flap() {
+      if (!bird) return;
       bird.velocity = bird.jump;
     }
 
